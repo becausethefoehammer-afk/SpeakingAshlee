@@ -12,7 +12,7 @@ enum APIConfig {
         return "http://localhost:3000"
         #else
         // Replace with your deployed Render URL after deploying the proxy
-        return "https://speaking-ashlee-proxy.onrender.com"
+        return "https://speakingashlee.onrender.com"
         #endif
     }()
 }

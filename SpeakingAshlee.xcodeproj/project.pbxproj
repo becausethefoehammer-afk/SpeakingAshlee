@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0BDC1ADCE7AF648FAABF40EC /* TranslatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A25957B985A22B3132C3CF0 /* TranslatorViewModel.swift */; };
+		48E19663391B8D43418AC92B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D010586146F397A510D9F9D4 /* Assets.xcassets */; };
 		B8BCECA9BA7C8BCDBCD8A1D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E35A072A677FB650C4EB /* ContentView.swift */; };
 		BA0F36EBF8901903ED911C16 /* SamplePhrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D99A8414EC79ADDA92256 /* SamplePhrases.swift */; };
 		EBA0F6EFBDF9CCEE532A8FE9 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7147EF58B1A581A8FC5F1669 /* APIConfig.swift */; };
@@ -20,7 +21,8 @@
 		92E7E35A072A677FB650C4EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A89D99A8414EC79ADDA92256 /* SamplePhrases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePhrases.swift; sourceTree = "<group>"; };
 		B9EE11213D52675ECB1778F6 /* SpeakingAshleeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakingAshleeApp.swift; sourceTree = "<group>"; };
-		ECC703435D49F20F38B7ACE9 /* SpeakingAshlee.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SpeakingAshlee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D010586146F397A510D9F9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC703435D49F20F38B7ACE9 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -36,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				7147EF58B1A581A8FC5F1669 /* APIConfig.swift */,
+				D010586146F397A510D9F9D4 /* Assets.xcassets */,
 				92E7E35A072A677FB650C4EB /* ContentView.swift */,
 				A89D99A8414EC79ADDA92256 /* SamplePhrases.swift */,
 				B9EE11213D52675ECB1778F6 /* SpeakingAshleeApp.swift */,
@@ -47,7 +50,7 @@
 		223F05030CA1B8E62D82DC83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECC703435D49F20F38B7ACE9 /* SpeakingAshlee.app */,
+				ECC703435D49F20F38B7ACE9 /* .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +63,7 @@
 			buildConfigurationList = 2E73C96C7B569654DD9DCAC5 /* Build configuration list for PBXNativeTarget "SpeakingAshlee" */;
 			buildPhases = (
 				709EB1530AD2224A473FB9BB /* Sources */,
+				583EA39AFFAD8D19582ACA0B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -69,7 +73,7 @@
 			packageProductDependencies = (
 			);
 			productName = SpeakingAshlee;
-			productReference = ECC703435D49F20F38B7ACE9 /* SpeakingAshlee.app */;
+			productReference = ECC703435D49F20F38B7ACE9 /* .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,6 +110,17 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		583EA39AFFAD8D19582ACA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E19663391B8D43418AC92B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		709EB1530AD2224A473FB9BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -126,6 +141,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = SpeakingAshlee/SpeakingAshlee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -141,6 +157,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = SpeakingAshlee/SpeakingAshlee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -155,11 +172,40 @@
 		34142E75ECE87B76CB629297 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0.0;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 5.10;
 			};
 			name = Release;
@@ -167,11 +213,41 @@
 		8045FC73C059BA7E17F7EF75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_VERSION = 5.10;
 			};
 			name = Debug;

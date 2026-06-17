@@ -1,0 +1,203 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BDC1ADCE7AF648FAABF40EC /* TranslatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A25957B985A22B3132C3CF0 /* TranslatorViewModel.swift */; };
+		B8BCECA9BA7C8BCDBCD8A1D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7E35A072A677FB650C4EB /* ContentView.swift */; };
+		BA0F36EBF8901903ED911C16 /* SamplePhrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D99A8414EC79ADDA92256 /* SamplePhrases.swift */; };
+		EBA0F6EFBDF9CCEE532A8FE9 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7147EF58B1A581A8FC5F1669 /* APIConfig.swift */; };
+		EC1CA5758125F6D5229F4BCE /* SpeakingAshleeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE11213D52675ECB1778F6 /* SpeakingAshleeApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A25957B985A22B3132C3CF0 /* TranslatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorViewModel.swift; sourceTree = "<group>"; };
+		7147EF58B1A581A8FC5F1669 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		92E7E35A072A677FB650C4EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A89D99A8414EC79ADDA92256 /* SamplePhrases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePhrases.swift; sourceTree = "<group>"; };
+		B9EE11213D52675ECB1778F6 /* SpeakingAshleeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakingAshleeApp.swift; sourceTree = "<group>"; };
+		ECC703435D49F20F38B7ACE9 /* SpeakingAshlee.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SpeakingAshlee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07E66A6CF2BCCD3C20508160 = {
+			isa = PBXGroup;
+			children = (
+				156B3FF401265636941041D5 /* SpeakingAshlee */,
+				223F05030CA1B8E62D82DC83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		156B3FF401265636941041D5 /* SpeakingAshlee */ = {
+			isa = PBXGroup;
+			children = (
+				7147EF58B1A581A8FC5F1669 /* APIConfig.swift */,
+				92E7E35A072A677FB650C4EB /* ContentView.swift */,
+				A89D99A8414EC79ADDA92256 /* SamplePhrases.swift */,
+				B9EE11213D52675ECB1778F6 /* SpeakingAshleeApp.swift */,
+				6A25957B985A22B3132C3CF0 /* TranslatorViewModel.swift */,
+			);
+			path = SpeakingAshlee;
+			sourceTree = "<group>";
+		};
+		223F05030CA1B8E62D82DC83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC703435D49F20F38B7ACE9 /* SpeakingAshlee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42E3175C33E9FB5476C3A270 /* SpeakingAshlee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E73C96C7B569654DD9DCAC5 /* Build configuration list for PBXNativeTarget "SpeakingAshlee" */;
+			buildPhases = (
+				709EB1530AD2224A473FB9BB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakingAshlee;
+			packageProductDependencies = (
+			);
+			productName = SpeakingAshlee;
+			productReference = ECC703435D49F20F38B7ACE9 /* SpeakingAshlee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265DC71984946E258558C957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					42E3175C33E9FB5476C3A270 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 75F54675A76BC16310C2103C /* Build configuration list for PBXProject "SpeakingAshlee" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 07E66A6CF2BCCD3C20508160;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 223F05030CA1B8E62D82DC83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42E3175C33E9FB5476C3A270 /* SpeakingAshlee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709EB1530AD2224A473FB9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA0F6EFBDF9CCEE532A8FE9 /* APIConfig.swift in Sources */,
+				B8BCECA9BA7C8BCDBCD8A1D2 /* ContentView.swift in Sources */,
+				BA0F36EBF8901903ED911C16 /* SamplePhrases.swift in Sources */,
+				EC1CA5758125F6D5229F4BCE /* SpeakingAshleeApp.swift in Sources */,
+				0BDC1ADCE7AF648FAABF40EC /* TranslatorViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08EB5C6F0C66AFE1F267A64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpeakingAshlee/SpeakingAshlee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SpeakingAshlee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminmolyneux.speakingashlee;
+			};
+			name = Debug;
+		};
+		1E457A64DAD87F824D46C30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpeakingAshlee/SpeakingAshlee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SpeakingAshlee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benjaminmolyneux.speakingashlee;
+			};
+			name = Release;
+		};
+		34142E75ECE87B76CB629297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+		8045FC73C059BA7E17F7EF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E73C96C7B569654DD9DCAC5 /* Build configuration list for PBXNativeTarget "SpeakingAshlee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EB5C6F0C66AFE1F267A64B /* Debug */,
+				1E457A64DAD87F824D46C30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		75F54675A76BC16310C2103C /* Build configuration list for PBXProject "SpeakingAshlee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8045FC73C059BA7E17F7EF75 /* Debug */,
+				34142E75ECE87B76CB629297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 265DC71984946E258558C957 /* Project object */;
+}

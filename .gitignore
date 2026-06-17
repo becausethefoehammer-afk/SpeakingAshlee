@@ -1,0 +1,26 @@
+# Xcode
+build/
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.ipa
+*.xcarchive
+*.dSYM.zip
+
+# Xcode user settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Node / proxy
+proxy/node_modules/
+proxy/.env
+*.env.local
+
+# macOS
+.DS_Store

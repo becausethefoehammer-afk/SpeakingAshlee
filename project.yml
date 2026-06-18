@@ -40,6 +40,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.benjaminmolyneux.speakingashlee
+        PRODUCT_NAME: SpeakingAshlee
         DEVELOPMENT_TEAM: "45VYN8DBFT"
         CODE_SIGN_STYLE: Manual
         PROVISIONING_PROFILE_SPECIFIER: "SpeakingAshlee AppStore"

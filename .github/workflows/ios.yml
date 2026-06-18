@@ -80,9 +80,16 @@ jobs:
           <plist version="1.0">
           <dict>
             <key>method</key>
-            <string>app-store</string>
+            <string>app-store-connect</string>
             <key>teamID</key>
             <string>${{ secrets.APPLE_TEAM_ID }}</string>
+            <key>signingStyle</key>
+            <string>manual</string>
+            <key>provisioningProfiles</key>
+            <dict>
+              <key>com.benjaminmolyneux.speakingashlee</key>
+              <string>${{ secrets.PROVISION_PROFILE_NAME }}</string>
+            </dict>
           </dict>
           </plist>
           EOF

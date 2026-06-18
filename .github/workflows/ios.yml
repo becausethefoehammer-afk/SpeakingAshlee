@@ -9,12 +9,12 @@ on:
 
 jobs:
   build:
-    runs-on: macos-14
+    runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
 
       - name: Select Xcode
-        run: sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer
+        run: sudo xcode-select -s /Applications/Xcode_16.2.app/Contents/Developer
 
       - name: Install XcodeGen
         run: |
@@ -64,6 +64,8 @@ jobs:
             -archivePath "$RUNNER_TEMP/SpeakingAshlee.xcarchive" \
             ONLY_ACTIVE_ARCH=NO \
             EXCLUDED_ARCHS="x86_64 i386" \
+            SUPPORTS_MACCATALYST=NO \
+            SKIP_INSTALL=NO \
             CODE_SIGN_STYLE=Manual \
             CODE_SIGN_IDENTITY="Apple Distribution" \
             DEVELOPMENT_TEAM="${{ secrets.APPLE_TEAM_ID }}" \
